@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'horizontal_list.dart';
 import 'lava_card.dart';
 
 void main() => runApp(MyApp());
@@ -130,6 +131,7 @@ class _MyHomePageState extends State<MyHomePage> {
             //   '$_counter',
             //   style: Theme.of(context).textTheme.display1,
             // ),
+            HorizontalTags(),
             LavaCard(),
             LavaCard(),
             LavaCard()
