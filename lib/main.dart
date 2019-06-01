@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'horizontal_list.dart';
 
 void main() => runApp(MyApp());
 
@@ -74,6 +75,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
+
         child: Column(
           // Column is also layout widget. It takes a list of children and
           // arranges them vertically. By default, it sizes itself to fit its
@@ -91,6 +93,7 @@ class _MyHomePageState extends State<MyHomePage> {
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            HorizontalTags(),
             Text(
               'You have clicked the button this many times:',
             ),
