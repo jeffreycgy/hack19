@@ -46,7 +46,17 @@ class _HorizontalList extends State<HorizontalTags> {
                 'flutter-appbar',
                 'flutter-packages'
               ];
-              for (var name in tags) getTagWidgets(name);
+              return Container(
+                margin: EdgeInsets.symmetric(vertical: 20.0),
+                height: 30.0,
+                width: 250,
+                child: ListView(
+                  scrollDirection: Axis.horizontal,
+                  children: <Widget>[
+                    for (var name in tags) getTagWidgets(name)
+                  ],
+                ),
+              );
             }
             print(json.encode(snapshot.data));
             return Container(
