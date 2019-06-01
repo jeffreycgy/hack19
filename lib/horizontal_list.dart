@@ -31,7 +31,22 @@ class _HorizontalList extends State<HorizontalTags> {
         builder: (BuildContext context, AsyncSnapshot snapshot) {
           if (snapshot.connectionState == ConnectionState.done) {
             if (snapshot.hasError) {
-              return Text("Error");
+              // return Text("Error");
+              var tags = [
+                'flutter-layout',
+                'flutter-dependencies',
+                'flutter-animation',
+                'flutter-test',
+                'flutter-sliver',
+                'flutter-plugin',
+                'flutter-navigation',
+                'flutter-redux',
+                'flutter-web',
+                'flutterwave',
+                'flutter-appbar',
+                'flutter-packages'
+              ];
+              for (var name in tags) getTagWidgets(name);
             }
             print(json.encode(snapshot.data));
             return Container(
