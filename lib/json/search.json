@@ -1,0 +1,778 @@
+{
+    "items": [
+        {
+            "tags": [
+                "flutter",
+                "dart"
+            ],
+            "owner": {
+                "reputation": 1253,
+                "user_id": 6274128,
+                "user_type": "registered",
+                "accept_rate": 89,
+                "profile_image": "https://i.stack.imgur.com/xvEjv.png?s=128&g=1",
+                "display_name": "Volleyball",
+                "link": "https://stackoverflow.com/users/6274128/volleyball"
+            },
+            "is_answered": true,
+            "view_count": 20,
+            "answer_count": 2,
+            "score": 0,
+            "last_activity_date": 1559359988,
+            "creation_date": 1559358519,
+            "question_id": 56403570,
+            "link": "https://stackoverflow.com/questions/56403570/flutter-spacer-vs-expanded",
+            "title": "Flutter Spacer vs Expanded",
+            "body": "<p>What is the difference between <code>Expanded</code> and <code>Spacer</code> in Flutter? Why Flutter team added <code>Spacer</code> when we already have <code>Expanded</code>?</p>\n"
+        },
+        {
+            "tags": [
+                "dart"
+            ],
+            "owner": {
+                "reputation": 1,
+                "user_id": 11585592,
+                "user_type": "registered",
+                "profile_image": "https://lh6.googleusercontent.com/-DDVaNHwnrQs/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdWM1CV7xQSp7cQfg5nxrFxuhM5Ng/mo/photo.jpg?sz=128",
+                "display_name": "Ahmad Alkaheem",
+                "link": "https://stackoverflow.com/users/11585592/ahmad-alkaheem"
+            },
+            "is_answered": false,
+            "view_count": 8,
+            "answer_count": 0,
+            "score": -1,
+            "last_activity_date": 1559358905,
+            "creation_date": 1559358905,
+            "question_id": 56403594,
+            "link": "https://stackoverflow.com/questions/56403594/flutter-c-src-flutter-flutter-bin-flutter-bat-no-color-packages-get",
+            "title": "flutter C:\\src\\flutter\\flutter\\bin\\flutter.bat --no-color packages get",
+            "body": "<p>after android studio update packages get gives me this error C:\\src\\flutter\\flutter\\bin\\flutter.bat --no-color packages get</p>\n"
+        },
+        {
+            "tags": [
+                "firebase",
+                "flutter",
+                "dart",
+                "google-cloud-firestore"
+            ],
+            "owner": {
+                "reputation": 732,
+                "user_id": 6180766,
+                "user_type": "registered",
+                "accept_rate": 64,
+                "profile_image": "https://www.gravatar.com/avatar/32199f364ee5ff46a70438f43d333bbe?s=128&d=identicon&r=PG&f=1",
+                "display_name": "LearnToday",
+                "link": "https://stackoverflow.com/users/6180766/learntoday"
+            },
+            "is_answered": false,
+            "view_count": 8,
+            "closed_date": 1559358446,
+            "answer_count": 0,
+            "score": 0,
+            "last_activity_date": 1559358498,
+            "creation_date": 1559356359,
+            "last_edit_date": 1559358344,
+            "question_id": 56403447,
+            "link": "https://stackoverflow.com/questions/56403447/how-to-do-a-dart-flutter-firebase-query-join",
+            "closed_reason": "duplicate",
+            "title": "How to do a dart flutter firebase query join",
+            "body": "<p>I have a firestore table of users, and another firestore table of blogs which has uid on each document. I would like to do join query in flutter by joining the two tables by their uid. I can't find a way of doing this in the fire quiz state management. I wanted to define a new class class.</p>\n\n<pre><code>BlogData&lt;T&gt; {\n  final Firestore _db = Firestore.instance;\n  final String path; \n  CollectionReference ref;\n  BlogData({ this.path }) {\n    ref = _db.collection(path);\n  }\n  Future&lt;List&lt;T&gt;&gt; getData() async {\n    // get blog data and do a join here to a user document by uid (document/blog.uid) return a future of blogs with user data such as name, country added to each blog in the future list.\n  }\n  Stream&lt;List&lt;T&gt;&gt; streamData() {\n    // get blog data and do a join here to the user document  by uid (document/blog.uid) return a stream of blogs with user data such as name, country added to each blog in the stream.\n  }\n}\n</code></pre>\n\n<p>How can I achieve this?</p>\n"
+        },
+        {
+            "tags": [
+                "dart",
+                "flutter"
+            ],
+            "owner": {
+                "reputation": 1253,
+                "user_id": 6274128,
+                "user_type": "registered",
+                "accept_rate": 89,
+                "profile_image": "https://i.stack.imgur.com/xvEjv.png?s=128&g=1",
+                "display_name": "Volleyball",
+                "link": "https://stackoverflow.com/users/6274128/volleyball"
+            },
+            "is_answered": true,
+            "view_count": 10417,
+            "accepted_answer_id": 52904214,
+            "answer_count": 4,
+            "score": 23,
+            "last_activity_date": 1559358293,
+            "creation_date": 1538653751,
+            "question_id": 52645944,
+            "link": "https://stackoverflow.com/questions/52645944/flutter-expanded-vs-flexible",
+            "title": "Flutter: Expanded vs Flexible",
+            "body": "<p>I've used both <code>Expanded</code> and <code>Flexible</code> widgets and they seem to work same. Is there any difference between the two that I missed?</p>\n"
+        },
+        {
+            "tags": [
+                "flutter",
+                "flutter-layout"
+            ],
+            "owner": {
+                "reputation": 1306,
+                "user_id": 1760836,
+                "user_type": "registered",
+                "accept_rate": 82,
+                "profile_image": "https://www.gravatar.com/avatar/d51d7c9dc3540ae2ea1c849030ed39eb?s=128&d=identicon&r=PG&f=1",
+                "display_name": "zachstarnes",
+                "link": "https://stackoverflow.com/users/1760836/zachstarnes"
+            },
+            "is_answered": false,
+            "view_count": 10,
+            "answer_count": 0,
+            "score": 0,
+            "last_activity_date": 1559355929,
+            "creation_date": 1559355929,
+            "question_id": 56403418,
+            "link": "https://stackoverflow.com/questions/56403418/fix-flutter-listview-builder-overflow-issue",
+            "title": "Fix flutter ListView.builder() overflow issue",
+            "body": "<p>I am using a future builder and a list view builder and I keep getting the vertical overflow error. I surrounded the <code>ListView.builder()</code> with a <code>Container</code> and gave it a fixed height but it's still giving me trouble. How can I get the error to go away?</p>\n\n<p>Here is the tree:</p>\n\n<pre><code>class OperationsScreen extends StatelessWidget {\n  @override\n  Widget build(BuildContext context) {\n    return ChangeNotifierProvider&lt;OperationsProvider&gt;(\n      builder: (_) =&gt; OperationsProvider(),\n      child: GenericScreen(\n        title: 'Operations',\n        endIcon: IconButton(\n          icon: Icon(Icons.settings),\n          iconSize: 28.0,\n          onPressed: () {},\n        ),\n        child: EntityList(),\n      ),\n    );\n  }\n}\n\nclass GenericScreen extends StatelessWidget {\n  final String title;\n  final Widget child;\n  final IconButton endIcon;\n\n  GenericScreen({\n    @required this.title,\n    @required this.child,\n    this.endIcon\n  });\n\n  @override\n  Widget build(BuildContext context) {\n    return Container(\n      padding: EdgeInsets.all(8.0),\n      child: Column(\n        children: &lt;Widget&gt;[\n          Flex(\n            direction: Axis.horizontal,\n            mainAxisAlignment: MainAxisAlignment.spaceBetween,\n            children: &lt;Widget&gt;[\n              Text(\n                this.title,\n                style: Theme.of(context).textTheme.title,\n              ),\n              this.endIcon ?? Container()\n            ],\n          ),\n          this.child\n        ],\n      ),\n    );\n  }\n}\n\nclass EntityList extends StatelessWidget {\n  ////////////////////////////////////////\n  // This is where the error is showing //\n  ////////////////////////////////////////\n\n  @override\n  Widget build(BuildContext context) {\n    var appProvider = Provider.of&lt;AppProvider&gt;(context);\n    var opsProvider = Provider.of&lt;OperationsProvider&gt;(context);\n\n    return FutureBuilder(\n      future: opsProvider.getEntities(appProvider.apiHeaders),\n      builder: (BuildContext context, AsyncSnapshot snapshot) {\n        return snapshot.hasData ? Container(\n          height: double.maxFinite,\n          child: ListView.builder(\n            itemCount: snapshot.data['content'].length,\n            itemBuilder: (BuildContext context, int index) {\n              var entity = snapshot.data['content'][index];\n              return Container(\n                child: Text(entity['entityId'])\n              );\n            }\n          )\n        ) : CircularProgressIndicator();\n      },\n    );\n  }\n}\n</code></pre>\n"
+        },
+        {
+            "tags": [
+                "flutter",
+                "widget",
+                "state"
+            ],
+            "owner": {
+                "reputation": 2187,
+                "user_id": 1949390,
+                "user_type": "registered",
+                "accept_rate": 73,
+                "profile_image": "https://www.gravatar.com/avatar/64cd775c51fc47067f0d133544385691?s=128&d=identicon&r=PG",
+                "display_name": "Brian Oh",
+                "link": "https://stackoverflow.com/users/1949390/brian-oh"
+            },
+            "is_answered": false,
+            "view_count": 31,
+            "answer_count": 2,
+            "score": 2,
+            "last_activity_date": 1559353412,
+            "creation_date": 1559238515,
+            "last_edit_date": 1559240633,
+            "question_id": 56383204,
+            "link": "https://stackoverflow.com/questions/56383204/flutter-widget-state-is-this-code-safe",
+            "title": "Flutter: Widget State: Is this code safe?",
+            "body": "<p>The code below is an example to illustrate this question. The code below works, however the following line: </p>\n\n<pre><code>class WidgetCustom extends StatefulWidget {\n</code></pre>\n\n<p>has \"WidgetCustom\" underlined in green in vsCode, and when the cursor is positioned over it, it shows the message:\n\"This class (or a class this class inherits from) is marked as @immutable, but one or more of its instance fields are not final\".</p>\n\n<p>The code works fine.</p>\n\n<p>Is it safe to use this code?</p>\n\n<p>Is there a way to achieve this without the warning?</p>\n\n<pre><code>import 'package:flutter/material.dart';\n\nclass WidgetCustom extends StatefulWidget {\n\n  _WidgetCustomState _state;\n\n  WidgetCustom({@required int iCount}) {\n    _state = _WidgetCustomState(iCount);\n  }\n\n  @override\n  State&lt;StatefulWidget&gt; createState() {\n    return _state;\n  }\n\n  int get getIcount =&gt; _state.iCount;\n}\n\nclass _WidgetCustomState extends State&lt;WidgetCustom&gt; {\n  int iCount;\n\n  _WidgetCustomState(this.iCount);\n\n  @override\n  Widget build(BuildContext context) {\n    return Container(\n        child: Row(children: &lt;Widget&gt;[\n      Column(\n        children: &lt;Widget&gt;[\n          RaisedButton(\n              child: const Text(\"Please tap me\"),\n              onPressed: () {\n                setState(() =&gt; iCount = iCount + 1);\n              }),\n          SizedBox(height: 40),\n          Text(\"Tapped $iCount Times\")\n        ],\n      ),\n    ]));\n  }\n}\n</code></pre>\n\n<p>Edited to add main.dart</p>\n\n<pre><code>import 'package:flutter/material.dart';\nimport 'widgetCustom.dart';\n\nvoid main() =&gt; runApp(MyApp());\n\nclass MyApp extends StatelessWidget {\n  @override\n  Widget build(BuildContext context) {\n    return MaterialApp(\n      title: 'Flutter Demo',\n      theme: ThemeData(\n        primarySwatch: Colors.blue,\n      ),\n      home: MyHomePage(title: 'Custom Widget Demo'),\n    );\n  }\n}\n\nclass MyHomePage extends StatefulWidget {\n  MyHomePage({Key key, this.title}) : super(key: key);\n\n  final String title;\n\n  @override\n  _MyHomePageState createState() =&gt; _MyHomePageState();\n}\n\nclass _MyHomePageState extends State&lt;MyHomePage&gt; {\n  WidgetCustom _widgetCustom;\n  String _sMessage = \"Fab has not been pressed\";\n  @override\n  void initState() {\n    super.initState();\n    _widgetCustom = WidgetCustom(iCount: 99);\n  }\n\n  @override\n  Widget build(BuildContext context) {\n    return Scaffold(\n      appBar: AppBar(\n        title: Text(widget.title),\n      ),\n      body: Column(children: [\n        _widgetCustom,\n        SizedBox(height: 40),\n        Text(_sMessage),\n      ]),\n      floatingActionButton: FloatingActionButton(\n        onPressed: _fabPressed,\n        tooltip: 'Get Value',\n        child: Icon(Icons.add),\n      ),\n    );\n  }\n\n  _fabPressed() {\n    setState(() =&gt; _sMessage =\n        \"Value from last button click = ${_widgetCustom.getIcount}\");\n  }\n}\n\n</code></pre>\n"
+        },
+        {
+            "tags": [
+                "flutter",
+                "google-maps-flutter"
+            ],
+            "owner": {
+                "reputation": 1,
+                "user_id": 11380677,
+                "user_type": "registered",
+                "profile_image": "https://lh5.googleusercontent.com/-ZDKg59w6b4g/AAAAAAAAAAI/AAAAAAAABs8/QMafvRA1zX8/photo.jpg?sz=128",
+                "display_name": "TecHaxter",
+                "link": "https://stackoverflow.com/users/11380677/techaxter"
+            },
+            "is_answered": false,
+            "view_count": 16,
+            "answer_count": 1,
+            "score": 0,
+            "last_activity_date": 1559351858,
+            "creation_date": 1559241152,
+            "last_edit_date": 1559351858,
+            "question_id": 56383795,
+            "link": "https://stackoverflow.com/questions/56383795/using-polyline-for-making-custom-route-with-google-maps-flutter-plugin-flutter",
+            "title": "Using Polyline for making custom route with google_maps_flutter plugin - Flutter",
+            "body": "<p><code>google_maps_flutter</code> 0.5.6 Added support for <code>Polylines</code> on <code>GoogleMap</code>.\nBut there is no code or documentation available under my view.</p>\n\n<p>A plugin named maps_view exists which supports polylines</p>\n\n<pre><code>import 'package:map_view/map_view.dart';\nimport 'package:map_view/polyline.dart';\n...\nMapView mapView = MapView();\nmapView.addPolyline(Polyline('my_polyline', [\n  Location(45.52309483308097, -122.67339684069155),\n  Location(45.52298442915803, -122.66339991241693),\n]));\n</code></pre>\n\n<p>I need the same function that's built-in with <code>google_maps_flutter</code>.</p>\n"
+        },
+        {
+            "tags": [
+                "webview",
+                "dart",
+                "flutter",
+                "flutter-layout"
+            ],
+            "owner": {
+                "reputation": 31,
+                "user_id": 6686212,
+                "user_type": "registered",
+                "profile_image": "https://lh3.googleusercontent.com/--ciqXdlrJ4A/AAAAAAAAAAI/AAAAAAAAABU/LtPnnMZv60A/photo.jpg?sz=128",
+                "display_name": "Abdoulaye Barry",
+                "link": "https://stackoverflow.com/users/6686212/abdoulaye-barry"
+            },
+            "is_answered": true,
+            "view_count": 2052,
+            "answer_count": 2,
+            "score": 3,
+            "last_activity_date": 1559351177,
+            "creation_date": 1545129938,
+            "question_id": 53831312,
+            "link": "https://stackoverflow.com/questions/53831312/how-to-render-a-local-html-file-with-flutter-dart-webview",
+            "title": "How to render a local HTML file with flutter dart webview",
+            "body": "<p>I want to render a local HTML file stored in my phone memory in webview using flutter and dart.</p>\n"
+        },
+        {
+            "tags": [
+                "firebase",
+                "flutter",
+                "dart",
+                "google-cloud-firestore"
+            ],
+            "owner": {
+                "reputation": 56,
+                "user_id": 8569903,
+                "user_type": "registered",
+                "profile_image": "https://www.gravatar.com/avatar/7bc54bffbe2ec4586a540a047b355655?s=128&d=identicon&r=PG&f=1",
+                "display_name": "Bnd10706",
+                "link": "https://stackoverflow.com/users/8569903/bnd10706"
+            },
+            "is_answered": false,
+            "view_count": 12,
+            "answer_count": 0,
+            "score": 0,
+            "last_activity_date": 1559350930,
+            "creation_date": 1559350930,
+            "question_id": 56403136,
+            "link": "https://stackoverflow.com/questions/56403136/flutter-sorting-cloud-firestore",
+            "title": "Flutter - Sorting Cloud Firestore",
+            "body": "<p>I am trying to sort the listview that is coming in. Since this listview is images, I added a number to the firestore object so I can sort ascending.</p>\n\n<p>I cannot seem to get the items to sort, and I am sure its how I built the app.</p>\n\n<p>I tried to add the .orderBy() to the collection, however its says Query is not a type of CollectionReference.</p>\n\n<p>Here is my page</p>\n\n<pre><code>import 'package:flutter/material.dart';\nimport 'dart:async';\nimport 'package:cloud_firestore/cloud_firestore.dart';\n\nclass Events extends StatefulWidget {\n  @override\n  _EventsState createState() =&gt; _EventsState();\n}\n\nclass _EventsState extends State&lt;Events&gt; {\n  StreamSubscription&lt;QuerySnapshot&gt; subscription;\n\n  List&lt;DocumentSnapshot&gt; snapshot;\n\n  CollectionReference collectionReference =\n  Firestore.instance.collection(\"Events\");\n\n\n  @override\n\n  void initState() {\n    subscription = collectionReference.snapshots().listen((datasnapshot) {\n      setState(() {\n        snapshot = datasnapshot.documents;\n      });\n    });\n    super.initState();\n  }\n\n//  passData(DocumentSnapshot snap) {\n//    Navigator.of(context).push(\n//        MaterialPageRoute(builder: (context) =&gt; EventPage(snapshot: snap,)));\n//  }\n\n  Widget build(BuildContext context) {\n    return Scaffold(\n         backgroundColor: Colors.white,\n      body: Column(\n        children: &lt;Widget&gt;[\n          Container(\n            width: MediaQuery.of(context).size.width,\n            height: 200,\n            decoration: BoxDecoration(\n              image: DecorationImage(\n                fit: BoxFit.fill,\n                image: AssetImage(\"assets/images/events.jpg\"),\n              ),\n            ),\n          ),\n          Divider(\n            color: Colors.black,\n          ),\n          Expanded(\n            child: ListView.separated(separatorBuilder: (context, index) =&gt; Divider(color: Colors.black12,\n    ), itemCount: snapshot.length,\n    itemBuilder: (context, index){\n              return Card(\n                child: Container(\n                  width: MediaQuery.of(context).size.width,\n                  height: 210,\n                  decoration: BoxDecoration(\n                    image: DecorationImage(\n                      fit: BoxFit.fill,\n                      image: NetworkImage(snapshot[index].data[\"image\"]),\n                    ),\n                  ),\n                ),\n\n              );\n    }\n\n          ))\n        ],\n      ),\n    );\n  }\n}\n</code></pre>\n\n<p>I really would like to sort these images by predetermined numbers in teh database.</p>\n"
+        },
+        {
+            "tags": [
+                "flutter",
+                "dart",
+                "flutter-web"
+            ],
+            "owner": {
+                "reputation": 324,
+                "user_id": 9836706,
+                "user_type": "registered",
+                "profile_image": "https://i.stack.imgur.com/p2ehG.jpg?s=128&g=1",
+                "display_name": "Francesco Iapicca",
+                "link": "https://stackoverflow.com/users/9836706/francesco-iapicca"
+            },
+            "is_answered": false,
+            "view_count": 72,
+            "answer_count": 3,
+            "score": 0,
+            "last_activity_date": 1559346242,
+            "creation_date": 1559152972,
+            "last_edit_date": 1559193171,
+            "question_id": 56366236,
+            "link": "https://stackoverflow.com/questions/56366236/how-to-update-pub-package-webdev-for-flutter-web",
+            "title": "How to update pub package webdev for flutter web",
+            "body": "<p>when I try to \"serve\" my flutter web app\nI'm getting this error:</p>\n\n<blockquote>\n  <p>This version of webdev does not support the <code>build_daemon</code> protocol\n  used by your version of <code>build_runner</code>. A newer version of webdev is\n  available which supports your version of the <code>build_daemon</code>. Please\n  update.</p>\n</blockquote>\n\n<p>how do I update <strong>webdev</strong> ?\n\"pub global\" seems to offer only \"activate\"/ \"deactivate\"\nand \"pub upgrade\" is only looking into the pubspec.yaml file</p>\n\n<p>any idea?</p>\n"
+        },
+        {
+            "tags": [
+                "flutter",
+                "dart"
+            ],
+            "owner": {
+                "reputation": 1,
+                "user_id": 11580303,
+                "user_type": "registered",
+                "profile_image": "https://lh4.googleusercontent.com/-cXreko7bdwc/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdmjWlqk-NjswbZPhpY9YYirm6Y_w/mo/photo.jpg?sz=128",
+                "display_name": "Paul",
+                "link": "https://stackoverflow.com/users/11580303/paul"
+            },
+            "is_answered": false,
+            "view_count": 15,
+            "closed_date": 1559347310,
+            "answer_count": 0,
+            "score": -4,
+            "last_activity_date": 1559345657,
+            "creation_date": 1559345657,
+            "question_id": 56402727,
+            "link": "https://stackoverflow.com/questions/56402727/how-can-i-make-my-app-change-scree-like-tinder-with-flutter",
+            "closed_reason": "unclear what you&#39;re asking",
+            "title": "How can I make my app change scree like tinder with flutter?",
+            "body": "<p>How can I make my app change screen like the Tinder app with flutter?</p>\n"
+        },
+        {
+            "tags": [
+                "flutter",
+                "dart"
+            ],
+            "owner": {
+                "reputation": 1,
+                "user_id": 7623083,
+                "user_type": "registered",
+                "profile_image": "https://www.gravatar.com/avatar/34c18dc3c069fc91eae8b3a86e9c816a?s=128&d=identicon&r=PG&f=1",
+                "display_name": "Ymi_Yugy",
+                "link": "https://stackoverflow.com/users/7623083/ymi-yugy"
+            },
+            "is_answered": false,
+            "view_count": 11,
+            "answer_count": 1,
+            "score": 0,
+            "last_activity_date": 1559341931,
+            "creation_date": 1559340443,
+            "question_id": 56402196,
+            "link": "https://stackoverflow.com/questions/56402196/flutter-how-to-use-hapticfeedback",
+            "title": "Flutter: How to use HapticFeedback",
+            "body": "<p>I have imported</p>\n\n<pre><code>import 'package:flutter/services.dart';\n</code></pre>\n\n<p>and then called</p>\n\n<pre><code>HapticFeedback.lightImpact();\n</code></pre>\n\n<p>nothing happens. What do I need to do to get it working.\nI am testing with the latest Flutter version 1.6.6 on a Galaxy S8 running Android 9.0</p>\n"
+        },
+        {
+            "tags": [
+                "post",
+                "cookies",
+                "request",
+                "dart",
+                "flutter"
+            ],
+            "owner": {
+                "reputation": 62,
+                "user_id": 9439037,
+                "user_type": "registered",
+                "profile_image": "https://lh6.googleusercontent.com/-H45NdEvBc74/AAAAAAAAAAI/AAAAAAAAAAc/-fwjRPAvpto/photo.jpg?sz=128",
+                "display_name": "Dev9977",
+                "link": "https://stackoverflow.com/users/9439037/dev9977"
+            },
+            "is_answered": true,
+            "view_count": 1010,
+            "answer_count": 2,
+            "score": 1,
+            "last_activity_date": 1559336962,
+            "creation_date": 1537885589,
+            "question_id": 52500575,
+            "link": "https://stackoverflow.com/questions/52500575/post-request-with-cookies-in-flutter",
+            "title": "Post request with Cookies in Flutter",
+            "body": "<p>I'm trying to add Cookies to my request: </p>\n\n<p>Here i get <code>csrftoken</code> with a <code>GET</code> request: </p>\n\n<pre><code> Future&lt;String&gt; getCsrftoken() async{\n       var response = await http.get(Uri.encodeFull('http://test/accounts/login/'));\n       var csrftoken = response.headers.remove('set-cookie').substring(10,74); //csrf \n       64 chars\n       return csrftoken;\n    }\n</code></pre>\n\n<p>Here i'm trying to perform the <code>POST</code> (<code>application/x-www-form-urlencoded</code>) request using the package  <a href=\"https://github.com/flutterchina/dio\" rel=\"nofollow noreferrer\">Dio</a>.</p>\n\n<pre><code>getSessionId() async {\n  var csrf = await getCsrftoken();\n  var cj = new CookieJar();\n  List&lt;Cookie&gt; cookies = [new Cookie(\"csrftoken\", csrf)];\n  cj.saveFromResponse(Uri.parse(\"http://test/accounts/login/\"), cookies);\n  List&lt;Cookie&gt; results = cj.loadForRequest(Uri.parse(\"http://test/accounts/login/\"));\n  var dio = new Dio(new Options(\n      baseUrl: \"http://test/accounts/login/\",\n      connectTimeout: 5000,\n      receiveTimeout: 100000,\n      // 5s\n      headers: {\n      },\n      contentType: ContentType.JSON,\n      // Transform the response data to a String encoded with UTF8.\n      // The default value is [ResponseType.JSON].\n      responseType: ResponseType.PLAIN\n  ));\n\n  Response&lt;String&gt; response;\n\n  response = await dio.post(\"\",\n    data: {\n      \"username\": \"username\",\n      \"password\": \"password\",\n      \"csrfmiddlewaretoken\" : getCsrftoken()\n    },\n    // Send data with \"application/x-www-form-urlencoded\" format\n    options: new Options(\n        contentType: ContentType.parse(\"application/x-www-form-urlencoded\")),\n  );\n  print(response.statusCode);\n}\n</code></pre>\n\n<p>I get 403 status code, because i need to add as a cookie <code>csrftoken</code>.</p>\n\n<p>How should I proceed?</p>\n"
+        },
+        {
+            "tags": [
+                "flutter",
+                "dart"
+            ],
+            "owner": {
+                "reputation": 6,
+                "user_id": 11073041,
+                "user_type": "registered",
+                "profile_image": "https://lh4.googleusercontent.com/-pE6kzCYnO9Y/AAAAAAAAAAI/AAAAAAAADS8/GLWGq9bwJas/photo.jpg?sz=128",
+                "display_name": "BriscoPeas Aristide",
+                "link": "https://stackoverflow.com/users/11073041/briscopeas-aristide"
+            },
+            "is_answered": false,
+            "view_count": 24,
+            "answer_count": 0,
+            "score": 0,
+            "last_activity_date": 1559333611,
+            "creation_date": 1559333611,
+            "question_id": 56401223,
+            "link": "https://stackoverflow.com/questions/56401223/flutter-does-not-work-anymore-after-upgrading",
+            "title": "Flutter does not work anymore after upgrading",
+            "body": "<p>My project was working perfectly and Just today i have upgrade my <code>Flutter</code> then everything start going run.</p>\n\n<p>At the bottom is the error they give me.\nPlease help me.</p>\n\n<pre><code>file:///Users/macbook/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/animated_background-1.0.4/lib/image_helper.dart:17:30: Error: The argument type 'dynamic Function(ImageInfo, bool)' can't be assigned to the parameter type 'ImageStreamListener'.\n - 'ImageInfo' is from 'package:flutter/src/painting/image_stream.dart' ('file:///Users/macbook/Documents/flutter/packages/flutter/lib/src/painting/image_stream.dart').\n - 'ImageStreamListener' is from 'package:flutter/src/painting/image_stream.dart' ('file:///Users/macbook/Documents/flutter/packages/flutter/lib/src/painting/image_stream.dart').\nTry changing the type of the parameter, or casting the argument to 'ImageStreamListener'.\n    newStream.removeListener(listener);\n                             ^\nfile:///Users/macbook/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/animated_background-1.0.4/lib/image_helper.dart:20:25: Error: The argument type 'dynamic Function(ImageInfo, bool)' can't be assigned to the parameter type 'ImageStreamListener'.\n - 'ImageInfo' is from 'package:flutter/src/painting/image_stream.dart' ('file:///Users/macbook/Documents/flutter/packages/flutter/lib/src/painting/image_stream.dart').\n - 'ImageStreamListener' is from 'package:flutter/src/painting/image_stream.dart' ('file:///Users/macbook/Documents/flutter/packages/flutter/lib/src/painting/image_stream.dart').\nTry changing the type of the parameter, or casting the argument to 'ImageStreamListener'.\n  newStream.addListener(listener);\n                        ^\nfile:///Users/macbook/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/animated_background-1.0.4/lib/image_helper.dart:21:41: Error: The argument type 'dynamic Function(ImageInfo, bool)' can't be assigned to the parameter type 'ImageStreamListener'.\n - 'ImageInfo' is from 'package:flutter/src/painting/image_stream.dart' ('file:///Users/macbook/Documents/flutter/packages/flutter/lib/src/painting/image_stream.dart').\n - 'ImageStreamListener' is from 'package:flutter/src/painting/image_stream.dart' ('file:///Users/macbook/Documents/flutter/packages/flutter/lib/src/painting/image_stream.dart').\nTry changing the type of the parameter, or casting the argument to 'ImageStreamListener'.\n  return () =&gt; newStream.removeListener(listener);\n                                        ^\nCompiler failed on /Users/macbook/AndroidStudioProjects/alimmentation/lib/main.dart\nFinished with error: Gradle task assembleDebug failed with exit code 1\n</code></pre>\n"
+        },
+        {
+            "tags": [
+                "flutter"
+            ],
+            "owner": {
+                "reputation": 33,
+                "user_id": 8661471,
+                "user_type": "registered",
+                "profile_image": "https://graph.facebook.com/10159329003220057/picture?type=large",
+                "display_name": "earyhe",
+                "link": "https://stackoverflow.com/users/8661471/earyhe"
+            },
+            "is_answered": false,
+            "view_count": 25,
+            "answer_count": 0,
+            "score": 0,
+            "last_activity_date": 1559331103,
+            "creation_date": 1559210046,
+            "last_edit_date": 1559331103,
+            "question_id": 56375830,
+            "link": "https://stackoverflow.com/questions/56375830/flutter-ignorepointer-not-working-on-children-of-gesturedetector",
+            "title": "Flutter: IgnorePointer not working on children of GestureDetector",
+            "body": "<p>I am trying to make a popup with a form that can submit details with a button.</p>\n\n<p>The 'barrierDissmissable' proprty of the show dialog function no longer works when i use a \"SingleChildScrollView\" in my Diolog. I assume it is covering it somehow. I used \"SingleChildScrollView\" to maintain the shape of the dialog when the keyboard appears.</p>\n\n<p>So i wrapped my widget in a gesture detector which pops the context and this is correctly simulating the barrierDissmissable property being true.</p>\n\n<p>Now the problem is whenever i click on any part of the Dialog apart from the TextFormFields or the Button the Diolog dismisses. I tried wrapping it in an IgnorePointer Widget but it did not work properly.</p>\n\n<pre><code>  static dynamic showDeleteUserPopup(BuildContext context)async{\n    return await showDialog(\n            barrierDismissible: true,\n            context: context,\n            builder: (BuildContext context) =&gt; DeleteUserDiolog());\n}\n</code></pre>\n\n<pre><code>class _DeleteUserDiologState extends State&lt;DeleteUserDiolog&gt; {\n\n    final _formKey = GlobalKey&lt;FormState&gt;();\n    final _email = TextEditingController();\n    final _password = TextEditingController();\n\n    @override\n    Widget build(BuildContext context) {\n        return new  GestureDetector( onTapDown: (tapdownDetails) =&gt; Navigator.pop(context),\n            child: SingleChildScrollView(\n            child :  Dialog(\n                shape: RoundedRectangleBorder(\n                    borderRadius: BorderRadius.all(Radius.circular(32.0))),\n                child:   Center(\n                    child: Container(\n                    padding: EdgeInsets.all(20),\n\n                    child: Column(\n                    children: &lt;Widget&gt;[\n                        Padding(padding: EdgeInsets.all(10),\n                            child: Text( \"Delete your account\", style: Theme.of(context).textTheme.title,)),\n                        Padding(padding: EdgeInsets.all(10),\n                        child: Text( \"Confirm your details below to delete your account\", style: Theme.of(context).textTheme.subtitle.apply(), textAlign: TextAlign.center,)),\n                        Form(\n                            key:_formKey,\n                            child: Column(\n                                children: [\n                                    Container(\n                                        width: 300,\n                                        padding: EdgeInsets.all(10),\n                                        child:TextFormField(\n                                            controller: _email,\n                                            decoration: InputDecoration(labelText: 'Email'),\n                                            key: Key('email'),\n                                            keyboardType: TextInputType.emailAddress,)),\n                                    Container(\n                                        width: 300,\n                                        padding: EdgeInsets.all(10),\n                                        child: TextFormField(\n                                            controller: _password,\n                                            decoration: InputDecoration(labelText: 'Password'),\n                                            key: Key('password'),\n                                            keyboardType: TextInputType.text,\n                                            obscureText: true,)),\n                                ]\n                            )\n                        ),\n                        CupertinoDialogAction(\n                            isDestructiveAction: true,\n                            child: Text('Delete', style: Theme.of(context).textTheme.display3.apply(color: Colors.red),),\n                            onPressed: () =&gt; Dbf.deleteCurrectUser(_email.text, _password.text).then((_){\n                                Navigator.popUntil(context, ModalRoute.withName(Navigator.defaultRouteName));\n                            }).catchError((e){\n                                PopUps.showAlert('Error', \"The credentials were wrong.\", \"OK\", () =&gt; Navigator.pop(context), context);\n                            }),\n                        )\n                    ],\n                )\n                )\n            )\n        )\n        )\n        );\n    }\n}\n</code></pre>\n\n<p>I want to be able to click on the dark overly to dismiss the popup. This stops working when i wrap the Dialog in a \"SingleChildScrollView\" but i need to do this so the popup maintains it's shape when the keyboard appears.</p>\n\n<p>Any help would be much appreciated.</p>\n"
+        },
+        {
+            "tags": [
+                "webview",
+                "flutter",
+                "state"
+            ],
+            "owner": {
+                "reputation": 50,
+                "user_id": 7825423,
+                "user_type": "registered",
+                "profile_image": "https://i.stack.imgur.com/bzWBR.jpg?s=128&g=1",
+                "display_name": "DoobieAsDave",
+                "link": "https://stackoverflow.com/users/7825423/doobieasdave"
+            },
+            "is_answered": false,
+            "view_count": 112,
+            "answer_count": 1,
+            "score": 0,
+            "last_activity_date": 1559329639,
+            "creation_date": 1553013892,
+            "question_id": 55246081,
+            "link": "https://stackoverflow.com/questions/55246081/flutter-webview-flutter-update-url-in-same-webview-widget",
+            "title": "Flutter: webview_flutter update url in same webview widget",
+            "body": "<p>Hey I am trying to create a screen which shows a webview with a bottomappbar.\nSo you load the webview and when tapping on a item in the bottomappbar a other website should loaded in the same webview...</p>\n\n<p>I cant figure out how to open another website other than I originaly parsed.\nI tried to update the url by using «setState» but it only updates the appbar title and the webview still shows the original website</p>\n\n<p>Here is my current code:</p>\n\n<pre><code>class _WebviewContainer extends State&lt;WebviewContainer&gt; {\nvar url;\nfinal key = UniqueKey();\n\n_WebviewContainer(this.url); \n\n@override\nWidget build(BuildContext context) {    \nreturn Scaffold(\n  appBar: AppBar(\n    title: Text(url),\n    actions: &lt;Widget&gt;[\n      IconButton(\n        icon: Icon(\n          Icons.home,\n          size: 40.0,\n          color: Colors.white,\n        ),\n        onPressed: () =&gt; {\n          //-&gt; Here I set the new url but the webview always shows the origin website\n\n          setState(() {\n            url = 'https://stackoverflow.com/';\n          })\n        },\n      )\n    ],\n  ),\n  body: Column(\n    children: &lt;Widget&gt;[\n      Expanded(\n        child: WebView(\n          key: key,\n          javascriptMode: JavascriptMode.unrestricted,\n          initialUrl: url,              \n        ),\n      ),          \n    ],\n  ),\n);\n}\n}\n</code></pre>\n\n<p>I took the code from a tutorial on YouTube and the creator also stated that the webview will reload if the state of the url changes, but unfortunately he did not show how to do it</p>\n\n<p>If anybody could help me out?</p>\n\n<p>Thanks in advance\nDoobie</p>\n"
+        },
+        {
+            "tags": [
+                "dart",
+                "flutter"
+            ],
+            "owner": {
+                "reputation": 36,
+                "user_id": 9347844,
+                "user_type": "registered",
+                "profile_image": "https://lh5.googleusercontent.com/-9X5FSL1rjrc/AAAAAAAAAAI/AAAAAAAASDU/fJ630oeSnEg/photo.jpg?sz=128",
+                "display_name": "James M",
+                "link": "https://stackoverflow.com/users/9347844/james-m"
+            },
+            "is_answered": true,
+            "view_count": 3391,
+            "answer_count": 8,
+            "score": 5,
+            "last_activity_date": 1559329101,
+            "creation_date": 1523494669,
+            "last_edit_date": 1528437047,
+            "question_id": 49786432,
+            "link": "https://stackoverflow.com/questions/49786432/how-do-i-fix-no-pubspec-yaml-file-found-in-flutter",
+            "title": "How do I fix &quot;No pubspec.yaml file found&quot; in flutter?",
+            "body": "<p>I am using Windows 10 with VS Code, although I also tested it on PowerShell, and both produced the same result:</p>\n\n<p>After creating a new flutter program, before editing anything, I tried to run it on my phone, as the <a href=\"https://flutter.io/get-started/test-drive/#vscode\" rel=\"nofollow noreferrer\">Tutorial Says</a>, but I get an error saying \"No pubspec.yaml file found\". I thought that the issue must be that the default new app setup having an issue, so I used the \"flutter_gallery\" example. However, this had the exact same issue. I have reinstalled flutter, installed dart 2 on its own, deleted .pub-cache, but nothing works. I tried Googling the issue, but I couldn't find anything.</p>\n\n<p>EDIT: I am running the commands from the root directory of the flutter project, where the pubspec.yaml file is, but I still get an error. The full error message is:</p>\n\n<pre><code>Error: No pubspec.yaml file found.\nThis command should be run from the root of your Flutter project.\nDo not run this command from the root of your git clone of Flutter.\n</code></pre>\n\n<p>here is the result of running <code>dir</code> from the root of the project:</p>\n\n<pre><code>Mode                LastWriteTime         Length Name\n----                -------------         ------ ----\nda---l       2018-04-11   3:45 PM                .idea\nda---l       2018-04-11   3:45 PM                android\nda---l       2018-04-11   3:45 PM                ios\nda---l       2018-04-11   4:19 PM                lib\nda---l       2018-04-11   3:45 PM                test\n-a---l       2018-04-11   3:45 PM            120 .gitignore\n-a---l       2018-04-11   3:45 PM            292 .metadata\n-a---l       2018-04-11   3:45 PM           5425 .packages\n-a---l       2018-04-11   3:45 PM            851 hello_world.iml\n-a---l       2018-04-11   3:45 PM           1412 hello_world_android.iml\n-a---l       2018-04-11   3:59 PM           8882 pubspec.lock\n-a---l       2018-04-11   3:59 PM            358 pubspec.yaml\n-a---l       2018-04-11   3:45 PM            160 README.md\n</code></pre>\n\n<p><strong>UPDATE:</strong> I still don't know what caused the problem, but when I reinstalled flutter for Beta 3, it finally worked.</p>\n"
+        },
+        {
+            "tags": [
+                "firebase",
+                "flutter",
+                "google-cloud-functions"
+            ],
+            "owner": {
+                "reputation": 1,
+                "user_id": 11375415,
+                "user_type": "registered",
+                "profile_image": "https://lh5.googleusercontent.com/-mw3tHhOPKyg/AAAAAAAAAAI/AAAAAAAAACM/dRov0DlOJvU/photo.jpg?sz=128",
+                "display_name": "Ra&#250;l Nikolaus",
+                "link": "https://stackoverflow.com/users/11375415/ra%c3%bal-nikolaus"
+            },
+            "is_answered": false,
+            "view_count": 13,
+            "answer_count": 1,
+            "score": 0,
+            "last_activity_date": 1559328609,
+            "creation_date": 1559327856,
+            "last_edit_date": 1559328163,
+            "question_id": 56400220,
+            "link": "https://stackoverflow.com/questions/56400220/flutter-firebase-cloud-functions-how-to-get-data-from-httpscallableresult",
+            "title": "Flutter + Firebase Cloud Functions - How to get data from HttpsCallableResult",
+            "body": "<p>I have written a simple cloud function that returns an id that is saved within my Cloud Firestore database.</p>\n\n<p>The cloud function looks like this:</p>\n\n<pre><code>\nexports.getWinkert = functions.https.onCall((data, context) =&gt; {\n\n    return admin.firestore().collection('users').doc('hash').get()\n    .then(snapshot =&gt; {\n        const winkertId = snapshot.wwinkert\n        return { id: winkertId };\n    })\n})\n\n</code></pre>\n\n<p>This function is called from my flutter app with this code:</p>\n\n<pre><code>\nFuture _getValues() async {\n    final HttpsCallable callable = CloudFunctions.instance.getHttpsCallable(\n      functionName: \"getWinkert\",\n    );\n    dynamic resp = await callable.call(&lt;String, dynamic&gt;{\n      \"name\": \"wwinkert\",\n    });\n    print(resp.toString());\n  }\n\n</code></pre>\n\n<p>Upon calling the function, I get this result:</p>\n\n<pre><code>I/flutter ( 8253): Instance of 'HttpsCallableResult'\n</code></pre>\n\n<p>Question: How do I get my data from the HttpsCallableResult instance in Dart?</p>\n\n<p>Thank you for your help in advance!</p>\n\n<p>Greets,\nRaul</p>\n"
+        },
+        {
+            "tags": [
+                "android",
+                "dart",
+                "flutter"
+            ],
+            "owner": {
+                "reputation": 445,
+                "user_id": 4083636,
+                "user_type": "registered",
+                "profile_image": "https://graph.facebook.com/100001427372334/picture?type=large",
+                "display_name": "Kingsley Kbc Comics",
+                "link": "https://stackoverflow.com/users/4083636/kingsley-kbc-comics"
+            },
+            "is_answered": true,
+            "view_count": 32423,
+            "answer_count": 6,
+            "score": 40,
+            "last_activity_date": 1559327418,
+            "creation_date": 1524527103,
+            "last_edit_date": 1553845194,
+            "question_id": 49991444,
+            "link": "https://stackoverflow.com/questions/49991444/create-a-rounded-button-button-with-border-radius-in-flutter",
+            "title": "Create a rounded button / button with border-radius in Flutter",
+            "body": "<p>I'm currently developing an Android app in Flutter. How can I add a rounded button?</p>\n"
+        },
+        {
+            "tags": [
+                "android",
+                "dart",
+                "flutter"
+            ],
+            "owner": {
+                "reputation": 179,
+                "user_id": 10137930,
+                "user_type": "registered",
+                "profile_image": "https://lh6.googleusercontent.com/-iwW2QjkPOwM/AAAAAAAAAAI/AAAAAAAAADE/n1s27Os5gS8/photo.jpg?sz=128",
+                "display_name": "Abc Xyz",
+                "link": "https://stackoverflow.com/users/10137930/abc-xyz"
+            },
+            "is_answered": true,
+            "view_count": 14318,
+            "accepted_answer_id": 51550358,
+            "answer_count": 6,
+            "score": 30,
+            "last_activity_date": 1559326066,
+            "creation_date": 1532594585,
+            "last_edit_date": 1535154528,
+            "question_id": 51534616,
+            "link": "https://stackoverflow.com/questions/51534616/how-to-change-package-name-in-flutter",
+            "title": "How to change package name in flutter?",
+            "body": "<p>Is there any way to change Package Name of Flutter project?</p>\n\n<p>I want to change package name and application name in flutter project.</p>\n"
+        },
+        {
+            "tags": [
+                "flutter",
+                "google-cloud-firestore"
+            ],
+            "owner": {
+                "reputation": 1,
+                "user_id": 10272801,
+                "user_type": "registered",
+                "profile_image": "https://www.gravatar.com/avatar/5951e8fea042516155416578064ea261?s=128&d=identicon&r=PG&f=1",
+                "display_name": "Marco",
+                "link": "https://stackoverflow.com/users/10272801/marco"
+            },
+            "is_answered": false,
+            "view_count": 15,
+            "answer_count": 0,
+            "score": 0,
+            "last_activity_date": 1559325203,
+            "creation_date": 1559323825,
+            "last_edit_date": 1559325203,
+            "question_id": 56399450,
+            "link": "https://stackoverflow.com/questions/56399450/loading-arrays-of-arrays-from-firestore-in-flutter",
+            "title": "Loading arrays of arrays from firestore in flutter",
+            "body": "<p>In firestore I have a a document structured as this:\nname : String,\nsurname : String,\nbirthday : String,\nphoneNumber : String,\nr : List,</p>\n\n<p>where MyObject contains itself a List but when I retrieve my document and map it as an object(MyMainObject) it throws an Unhandled Exception that states: type '_InternalLinkedHashMap' is not a subtype of type 'Map'</p>\n\n<p>Before adding the List everything was ok and the object was retrieved correctly but after adding a List it throws this Exception</p>\n\n<pre><code>import 'package:cloud_firestore/cloud_firestore.dart';\nimport 'package:flutter/material.dart';\n\nclass MyMainObject {\n  String name;\n  String surname;\n  String birthday;\n  String phoneNumber;\n  int id;\n  List&lt;MyObject&gt; r;\n\n  MyMainObject(\n      {this.name,\n      this.surname,\n      this.birthday,\n      this.phoneNumber,\n      this.id,\n      this.r});\n\n  factory MyMainObject.fromSnapshot(Map&lt;String, dynamic&gt; parsedSnap) {\n    var parsedList = parsedSnap['r'] as List;\n    List&lt;MyObject&gt; rList = parsedList.map((i) {\n      MyObject.fromJson(i);\n    }).toList();\n    return MyMainObject(\n      name: parsedSnap['name'] as String,\n      surname: parsedSnap['surname'] as String,\n      birthday: parsedSnap['birth'] as String,\n      phoneNumber: parsedSnap['phoneNumber'] as String,\n      id: parsedSnap['id'] as int,\n      r: rList,\n    );\n  }\n}\n\nclass MyObject {\n  String dateTime;\n  String spec;\n  List&lt;String&gt; laps; //Before adding this everything was ok\n  String totalLap;\n\n  MyObject({this.dateTime, this.spec});\n\n  factory MyObject.fromJson(Map&lt;String, dynamic&gt; parsedJson) {\n    String _totalTempLap = parsedJson['totalLap'];\n    List&lt;String&gt; _lapsTemp = new List&lt;String&gt;.from(parsedJson['laps']);\n    MyObject r =\n        Run(dateTime: parsedJson['dateTime'], spec: parsedJson['spec']);\n    r.setLaps(_lapsTemp);\n    r.setTotalLap(_totalTempLap);\n    return r;\n  }\n}\n\nclass RetrieveObject extends StatefulWidget {\n  RetrieveObjectState createState() =&gt; new RetrieveObjectState();\n}\n\nclass RetrieveObjectState extends State&lt;RetrieveObject&gt; {\n  MyMainObject myMainObject;\n\n  @override\n  void didChangeDependencies() {\n    super.didChangeDependencies();\n    Firestore.instance\n      ..collection('/maincollection')\n          .document('maindocument')\n          .collection('mainObjectCollection')\n          .document['mainObjectName']\n          .snapshots()\n          .forEach((doc) {\n        setState(() {\n          myMainObject = MyMainObject.fromSnapshot(doc.data);\n        });\n      });\n  }\n\n  @override\n  Widget build(BuildContext context) {\n    return Text('${myMainObject.name}');\n  }\n}\n</code></pre>\n\n<p>I expected to have myMainObject but instead I end up with an Unhandled Exception.</p>\n"
+        },
+        {
+            "tags": [
+                "flutter"
+            ],
+            "owner": {
+                "reputation": 7,
+                "user_id": 9815281,
+                "user_type": "registered",
+                "profile_image": "https://www.gravatar.com/avatar/2a212c41a81f10a0243fa630d7386e16?s=128&d=identicon&r=PG&f=1",
+                "display_name": "Binuwara",
+                "link": "https://stackoverflow.com/users/9815281/binuwara"
+            },
+            "is_answered": false,
+            "view_count": 26,
+            "answer_count": 1,
+            "score": -1,
+            "last_activity_date": 1559325095,
+            "creation_date": 1559260696,
+            "last_edit_date": 1559289332,
+            "question_id": 56387049,
+            "link": "https://stackoverflow.com/questions/56387049/flutter-one-update-per-button-press",
+            "title": "Flutter one update per button press",
+            "body": "<p>Is it possible to change the text 3 times per button press? I tried to use if statement to do this. But it shows the third text when the user pressed for the second time.</p>\n\n<pre><code>RaisedButton(\n                  child: Text('$_buttonText'),\n                  onPressed: () {\n                    setState(() {\n                      if(!_isSecondPress) {\n                      _text =\n                          'First Text';\n                      _buttonText = 'Pressed 1 times';\n                      // _isSecondPress = true;\n                      }\n\n                      if (_isSecondPress) {\n                         _text = 'Second Text';\n                        _buttonText = 'Pressed 2 times';\n                        print('It works');\n                      }\n                    });\n                  },\n                )\n</code></pre>\n"
+        },
+        {
+            "tags": [
+                "flutter"
+            ],
+            "owner": {
+                "reputation": 57,
+                "user_id": 7218422,
+                "user_type": "registered",
+                "accept_rate": 75,
+                "profile_image": "https://lh4.googleusercontent.com/-dsD6D5xQzKA/AAAAAAAAAAI/AAAAAAAAAHw/HUBa06Y8y0U/photo.jpg?sz=128",
+                "display_name": "Ghanshyam Savaliya",
+                "link": "https://stackoverflow.com/users/7218422/ghanshyam-savaliya"
+            },
+            "is_answered": true,
+            "view_count": 6766,
+            "accepted_answer_id": 49346421,
+            "answer_count": 3,
+            "score": 8,
+            "last_activity_date": 1559324651,
+            "creation_date": 1521359080,
+            "last_edit_date": 1521433127,
+            "question_id": 49345605,
+            "link": "https://stackoverflow.com/questions/49345605/how-to-open-an-application-from-a-flutter-app",
+            "title": "How to open an application from a Flutter app?",
+            "body": "<p>I am developing a Flutter app, in which I need to show navigation to the user for a place. So, how can I open a map application from my Flutter app like we do using external intent in Android?</p>\n\n<p>Or their is any flutter-plugin for it?</p>\n"
+        },
+        {
+            "tags": [
+                "layout",
+                "flutter"
+            ],
+            "owner": {
+                "reputation": 105,
+                "user_id": 8950066,
+                "user_type": "registered",
+                "accept_rate": 65,
+                "profile_image": "https://i.stack.imgur.com/co6Ro.jpg?s=128&g=1",
+                "display_name": "666DESH666",
+                "link": "https://stackoverflow.com/users/8950066/666desh666"
+            },
+            "is_answered": true,
+            "view_count": 4213,
+            "accepted_answer_id": 49280031,
+            "answer_count": 4,
+            "score": 4,
+            "last_activity_date": 1559324069,
+            "creation_date": 1521036067,
+            "last_edit_date": 1548792073,
+            "question_id": 49279736,
+            "link": "https://stackoverflow.com/questions/49279736/how-can-i-display-buttons-side-by-side-in-flutter",
+            "title": "How can I display buttons side-by-side in Flutter?",
+            "body": "<p>I would like to display both of my buttons next to each other horizontally. So far I can only display them from top to bottom.</p>\n\n<p>With the following code, what would I have to change ?</p>\n\n<pre><code>new Container(\n    child: new Column(\n\n      children: &lt;Widget&gt;[\n\n      new RaisedButton(\n        child: new Text(\"LogIn\"),\n        color:  Colors.blueAccent[600],\n        onPressed: null,\n        ),\n\n\n      new RaisedButton(\n        child: new Text(\"SignUp\"),\n        color:  Colors.blueAccent[600],\n        onPressed: null,\n        ),\n\n\n      ],\n    ),\n  ),\n</code></pre>\n"
+        },
+        {
+            "tags": [
+                "android",
+                "dart",
+                "flutter"
+            ],
+            "owner": {
+                "reputation": 393,
+                "user_id": 4037954,
+                "user_type": "registered",
+                "accept_rate": 67,
+                "profile_image": "https://lh6.googleusercontent.com/--gILOWEaIZI/AAAAAAAAAAI/AAAAAAAAAOg/y2s0YF-kvFQ/photo.jpg?sz=128",
+                "display_name": "It Assistors",
+                "link": "https://stackoverflow.com/users/4037954/it-assistors"
+            },
+            "is_answered": true,
+            "view_count": 40,
+            "answer_count": 2,
+            "score": 0,
+            "last_activity_date": 1559322666,
+            "creation_date": 1558527430,
+            "question_id": 56256621,
+            "link": "https://stackoverflow.com/questions/56256621/redraw-widget-with-delay-in-flutter",
+            "title": "Redraw widget with Delay in Flutter",
+            "body": "<p>I want to remove a content from a Widget based on a conditional logic.</p>\n\n<p>Below is my Widget tree,</p>\n\n<pre><code>return MaterialApp(\n    home: Scaffold(\n    body: Container(\n    margin: EdgeInsets.all(120.0),\n    child: Align(\n      alignment: Alignment.center,\n      child: Column(\n        children: &lt;Widget&gt;[\n          Text(\"Loading...\");\n        ],\n      ),\n    ),\n  ),\n));\n</code></pre>\n\n<p>Lets say I have a variable which fetches value from SharePreferences and if the value is \"Hide\" then Text widget encapsulated inside must be hidden. Otherwise it should display the text fetched from the SP.</p>\n\n<p>The catch here is that the Text will initially display \"Loading...\" for a specific duration and then after that it must behave dynamically based on the condition.</p>\n\n<p>I have tried with <code>Timer</code> and <code>setState()</code> but couldn't really make it work. Kindly assist if anyone has a solution for this. </p>\n"
+        },
+        {
+            "tags": [
+                "flutter"
+            ],
+            "owner": {
+                "reputation": 411,
+                "user_id": 533104,
+                "user_type": "registered",
+                "accept_rate": 62,
+                "profile_image": "https://www.gravatar.com/avatar/32cf7928dc8995de4e1300918f0f16eb?s=128&d=identicon&r=PG",
+                "display_name": "dakamojo",
+                "link": "https://stackoverflow.com/users/533104/dakamojo"
+            },
+            "is_answered": true,
+            "view_count": 2228,
+            "accepted_answer_id": 52397620,
+            "answer_count": 4,
+            "score": 9,
+            "last_activity_date": 1559321898,
+            "creation_date": 1537327050,
+            "last_edit_date": 1537328091,
+            "question_id": 52397496,
+            "link": "https://stackoverflow.com/questions/52397496/flutter-upgrade-fail",
+            "title": "Flutter upgrade fail",
+            "body": "<p>When I attempt to update Flutter I get the following error.</p>\n\n<blockquote>\n  <p>error: Your local changes to the following files would be overwritten\n  by merge:\n    examples/flutter_gallery/ios/Runner.xcodeproj/project.pbxproj </p>\n  \n  <p>Please\n  commit your changes or stash them before you merge. </p>\n  \n  <p>Aborting Updating\n  f9bb4289e..5ab9e7072 Process finished with exit code 1</p>\n</blockquote>\n\n<p>I suspect at some point I did something in the examples project and I don't care about loosing the changes.  </p>\n\n<p>What is the easiest thing to do?</p>\n"
+        },
+        {
+            "tags": [
+                "firebase",
+                "flutter",
+                "firebase-analytics"
+            ],
+            "owner": {
+                "reputation": 151,
+                "user_id": 5348895,
+                "user_type": "registered",
+                "accept_rate": 88,
+                "profile_image": "https://www.gravatar.com/avatar/3e6120d3219794cdd87c391979373a0d?s=128&d=identicon&r=PG&f=1",
+                "display_name": "patrick",
+                "link": "https://stackoverflow.com/users/5348895/patrick"
+            },
+            "is_answered": false,
+            "view_count": 9,
+            "answer_count": 0,
+            "score": 0,
+            "last_activity_date": 1559320748,
+            "creation_date": 1559319932,
+            "last_edit_date": 1559320748,
+            "question_id": 56398690,
+            "link": "https://stackoverflow.com/questions/56398690/what-code-to-send-multiple-event-paramskey-in-firebase-analytics-flutter",
+            "title": "what code to send multiple event.paramskey in firebase analytics flutter",
+            "body": "<p>I would like to send for one event multiple event.params.key and for each of the params key a string attach to it.\nExample of schema in this picture below<a href=\"https://i.stack.imgur.com/MBDno.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.stack.imgur.com/MBDno.png\" alt=\"enter image description here\"></a></p>\n\n<p>I am not able to understand how to do it looking at the example given by the plugin firebase as it only seem to take event_name with one event param</p>\n\n<pre><code>  Future&lt;void&gt; _sendAnalyticsbEvent() async {\nawait analytics.logEvent(\n  name: 'test_event',\n  parameters: &lt;String, dynamic&gt;{\n    'string': 'string',\n    'int': 42,\n    'long': 12345678910,\n    'double': 42.0,\n    'bool': true,\n  },\n);\nsetMessage('logEvent succeeded');\n</code></pre>\n\n<p>}</p>\n\n<p>Quick edit I am thinking at something like this but i am not sure</p>\n\n<pre><code>  Future&lt;void&gt; _sendAnalyticsEvent() async {\nawait analytics.logEvent(\n  name: 'My First Event',\n  parameters: &lt;String, dynamic&gt;{\n    'download': 'this',\n    'upload': 'that',\n  },\n);\nsetMessage('it succeeded');}\n</code></pre>\n\n<p>if that is the proper way</p>\n"
+        },
+        {
+            "tags": [
+                "android",
+                "gradle",
+                "flutter"
+            ],
+            "owner": {
+                "reputation": 56,
+                "user_id": 8569903,
+                "user_type": "registered",
+                "profile_image": "https://www.gravatar.com/avatar/7bc54bffbe2ec4586a540a047b355655?s=128&d=identicon&r=PG&f=1",
+                "display_name": "Bnd10706",
+                "link": "https://stackoverflow.com/users/8569903/bnd10706"
+            },
+            "is_answered": false,
+            "view_count": 11,
+            "answer_count": 0,
+            "score": 0,
+            "last_activity_date": 1559318968,
+            "creation_date": 1559255723,
+            "last_edit_date": 1559318968,
+            "question_id": 56386460,
+            "link": "https://stackoverflow.com/questions/56386460/flutter-android-apk-build-getting-gradle-issue",
+            "title": "Flutter / Android APK build getting gradle issue",
+            "body": "<p>I have been able to build this apk just fine, but all of a sudden I cannot.</p>\n\n<p>I have tried everything that I can think of and I am looking for extra assistance.</p>\n\n<p>When I do flutter build apk -v I get this at the bottom</p>\n\n<pre><code> [   +2 ms] * Error running Gradle:\n           Bad state: No element\n\n[   +7 ms] \"flutter apk\" took 29,966ms.\n[        ] \"flutter apk\" took 29,966ms.\nPlease review your Gradle project setup in the android/ folder.\n\n#0      throwToolExit (package:flutter_tools/src/base/common.dart:24:3)\n#1      _readGradleProject (package:flutter_tools/src/android/gradle.dart:158:7)\n&lt;asynchronous suspension&gt;\n#2      _gradleProject (package:flutter_tools/src/android/gradle.dart:111:34)\n&lt;asynchronous suspension&gt;\n#3      _buildGradleProjectV2 (package:flutter_tools/src/android/gradle.dart:378:39)\n&lt;asynchronous suspension&gt;\n#4      buildGradleProject (package:flutter_tools/src/android/gradle.dart:346:14)\n&lt;asynchronous suspension&gt;\n#5      buildApk (package:flutter_tools/src/android/apk.dart:34:9)\n&lt;asynchronous suspension&gt;\n#6      BuildApkCommand.runCommand (package:flutter_tools/src/commands/build_apk.dart:51:11)\n&lt;asynchronous suspension&gt;\n#7      FlutterCommand.verifyThenRunCommand (package:flutter_tools/src/runner/flutter_command.dart:559:18)\n#8      _asyncThenWrapperHelper.&lt;anonymous closure&gt; (dart:async-patch/async_patch.dart:77:64)\n#9      _rootRunUnary (dart:async/zone.dart:1132:38)\n#10     _CustomZone.runUnary (dart:async/zone.dart:1029:19)\n#11     _FutureListener.handleValue (dart:async/future_impl.dart:126:18)\n#12     Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:639:45)\n#13     Future._propagateToListeners (dart:async/future_impl.dart:668:32)\n#14     Future._complete (dart:async/future_impl.dart:473:7)\n#15     _SyncCompleter.complete (dart:async/future_impl.dart:51:12)\n#16     _AsyncAwaitCompleter.complete.&lt;anonymous closure&gt; (dart:async-patch/async_patch.dart:33:20)\n#17     _rootRun (dart:async/zone.dart:1124:13)\n#18     _CustomZone.run (dart:async/zone.dart:1021:19)\n#19     _CustomZone.bindCallback.&lt;anonymous closure&gt; (dart:async/zone.dart:947:23)\n#20     _microtaskLoop (dart:async/schedule_microtask.dart:41:21)\n#21     _startMicrotaskLoop (dart:async/schedule_microtask.dart:50:5)\n#22     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:115:13)\n#23     _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:172:5)\n</code></pre>\n\n<p>An advice would be great</p>\n"
+        },
+        {
+            "tags": [
+                "flutter",
+                "dart"
+            ],
+            "owner": {
+                "reputation": 613,
+                "user_id": 348719,
+                "user_type": "registered",
+                "accept_rate": 40,
+                "profile_image": "https://www.gravatar.com/avatar/eb180bc6dd7e72a35a27319fcd7e6fda?s=128&d=identicon&r=PG&f=1",
+                "display_name": "sgon00",
+                "link": "https://stackoverflow.com/users/348719/sgon00"
+            },
+            "is_answered": false,
+            "view_count": 27,
+            "answer_count": 0,
+            "score": 3,
+            "last_activity_date": 1559318524,
+            "creation_date": 1559316190,
+            "last_edit_date": 1559318524,
+            "question_id": 56397809,
+            "link": "https://stackoverflow.com/questions/56397809/why-doesnt-iconicons-add-give-me-a-warning-when-i-turn-on-prefer-const-constr",
+            "title": "Why doesn&#39;t Icon(Icons.add) give me a warning when I turn on prefer_const_constructors in flutter?",
+            "body": "<p>When I have <a href=\"https://dart-lang.github.io/linter/lints/prefer_const_constructors.html\" rel=\"nofollow noreferrer\"><code>prefer_const_constructors</code> in <code>analysis_options.yaml</code></a>, it will warn me when I can use const constructors but I don't.</p>\n\n<p>For example: </p>\n\n<pre class=\"lang-dart prettyprint-override\"><code>class A {\n  const A();\n}\n\nvoid accessA() {\n  A a = A();\n}\n</code></pre>\n\n<p>This will give me a warning. </p>\n\n<p>But, when I use <code>Icon(Icons.add)</code> instead of <code>const Icon(Icons.add)</code> in Flutter code, I don't see any warnings. Why? </p>\n"
+        },
+        {
+            "tags": [
+                "flutter",
+                "dart"
+            ],
+            "owner": {
+                "reputation": 278,
+                "user_id": 1820796,
+                "user_type": "registered",
+                "accept_rate": 33,
+                "profile_image": "https://i.stack.imgur.com/S7uke.jpg?s=128&g=1",
+                "display_name": "ChrisH",
+                "link": "https://stackoverflow.com/users/1820796/chrish"
+            },
+            "is_answered": true,
+            "view_count": 26,
+            "answer_count": 1,
+            "score": 0,
+            "last_activity_date": 1559317978,
+            "creation_date": 1559272357,
+            "question_id": 56388199,
+            "link": "https://stackoverflow.com/questions/56388199/image-map-like-functionality-in-flutter",
+            "title": "Image Map -like functionality in Flutter?",
+            "body": "<p>I've searched quite a bit and not found a solid answer, so if this is a dupe, I honestly tried. </p>\n\n<p>I have an app I'm rewriting and moving away from an html-based hybrid platform (specifically Trigger.io); doing the rewrite in Flutter and Dart, on the quick.</p>\n\n<p>Part of the app includes a pretty simple screen where the user can click on an image of a human body, and via an image map, get back an identifier and caption for the body part (right forearm, left knee, head, etc). </p>\n\n<p>I simply can not find an analog to this behavior and capability in Flutter. Have I missed something simple because I was totally over thinking it? </p>\n\n<p>Thanks much. </p>\n"
+        }
+    ],
+    "has_more": true,
+    "quota_max": 300,
+    "quota_remaining": 214
+}
