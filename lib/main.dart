@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:webview_flutter/webview_flutter.dart';
 import 'horizontal_list.dart';
 import 'lava_card.dart';
 
@@ -37,17 +38,38 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
+  TextEditingController editingController = TextEditingController();
 
-  void _incrementCounter() {
-    setState(() {
-      // This call to setState tells the Flutter framework that something has
-      // changed in this State, which causes it to rerun the build method below
-      // so that the display can reflect the updated values. If we changed
-      // _counter without calling setState(), then the build method would not be
-      // called again, and so nothing would appear to happen.
-      _counter++;
-    });
+  final duplicateItems = List<String>.generate(10000, (i) => "Item $i");
+  var items = List<String>();
+
+  @override
+  void initState() {
+    items.addAll(duplicateItems);
+    super.initState();
+  }
+
+  void filterSearchResults(String query) {
+    List<String> dummySearchList = List<String>();
+    dummySearchList.addAll(duplicateItems);
+    if (query.isNotEmpty) {
+      List<String> dummyListData = List<String>();
+      dummySearchList.forEach((item) {
+        if (item.contains(query)) {
+          dummyListData.add(item);
+        }
+      });
+      setState(() {
+        items.clear();
+        items.addAll(dummyListData);
+      });
+      return;
+    } else {
+      setState(() {
+        items.clear();
+        items.addAll(duplicateItems);
+      });
+    }
   }
 
   @override
@@ -58,12 +80,51 @@ class _MyHomePageState extends State<MyHomePage> {
           padding: const EdgeInsets.all(0),
           children: <Widget>[
             DrawerHeader(
-              child: Text('Drawer Header'),
-              decoration: BoxDecoration(color: Colors.blue),
+              margin: EdgeInsets.all(0),
+              child: Padding(
+                  padding: const EdgeInsets.all(14),
+                  child: CircleAvatar(
+                      backgroundColor: Color(0xFFF5f5f5),
+                      child: Icon(
+                        IconData(59558, fontFamily: 'MaterialIcons'),
+                        size: 48,
+                      ))),
+              decoration: BoxDecoration(
+                color: Color(0xFF1976D2),
+              ),
             ),
-            ListTile(title: Text('Home')),
-            ListTile(title: Text('Profile')),
-            ListTile(title: Text('Bookmarks'))
+            Ink(
+                color: Color(0xFF1976D2),
+                child: ListTile(
+                    title: Padding(
+                        padding: EdgeInsets.fromLTRB(0, 0, 0, 20),
+                        child: Text(
+                          'Jeffrey Chai',
+                          textAlign: TextAlign.center,
+                          style:
+                              TextStyle(fontSize: 24, color: Color(0xFFFFFFFF)),
+                        )))),
+            ListTile(
+              title: Text(
+                'Home',
+                style: TextStyle(fontSize: 20),
+              ),
+            ),
+            ListTile(
+                title: Text(
+              'Bookmarks',
+              style: TextStyle(fontSize: 20),
+            )),
+            ListTile(
+                title: Text(
+              'Settings',
+              style: TextStyle(fontSize: 20),
+            )),
+            ListTile(
+                title: Text(
+              'Log out',
+              style: TextStyle(fontSize: 20),
+            ))
           ],
         ),
       ),
@@ -88,6 +149,21 @@ class _MyHomePageState extends State<MyHomePage> {
           // horizontal).
           // mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Padding(
+              padding: const EdgeInsets.fromLTRB(20, 15, 20, 5),
+              child: TextField(
+                onChanged: (value) {
+                  filterSearchResults(value);
+                },
+                controller: editingController,
+                decoration: InputDecoration(
+                    contentPadding: const EdgeInsets.symmetric(vertical: 10.0),
+                    hintText: "Search",
+                    prefixIcon: Icon(Icons.search),
+                    border: OutlineInputBorder(
+                        borderRadius: BorderRadius.all(Radius.circular(35.0)))),
+              ),
+            ),
             // Text(
             //   'You have clicked the button this many times:',
             // ),
@@ -107,6 +183,22 @@ class _MyHomePageState extends State<MyHomePage> {
       //   tooltip: 'Increment',
       //   child: Icon(Icons.add),
       // ), // This trailing comma makes auto-formatting nicer for build methods.
+    );
+  }
+}
+
+class DetailsPage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Details Page'),
+        backgroundColor: Color(0xFF1976D2),
+      ),
+      body: const WebView(
+        initialUrl: 'https://flutter.io',
+        javascriptMode: JavascriptMode.unrestricted,
+      ),
     );
   }
 }
