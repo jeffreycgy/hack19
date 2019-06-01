@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:webview_flutter/webview_flutter.dart';
 import 'horizontal_list.dart';
 import 'lava_card.dart';
 
@@ -182,6 +183,22 @@ class _MyHomePageState extends State<MyHomePage> {
       //   tooltip: 'Increment',
       //   child: Icon(Icons.add),
       // ), // This trailing comma makes auto-formatting nicer for build methods.
+    );
+  }
+}
+
+class DetailsPage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Details Page'),
+        backgroundColor: Color(0xFF1976D2),
+      ),
+      body: const WebView(
+        initialUrl: 'https://flutter.io',
+        javascriptMode: JavascriptMode.unrestricted,
+      ),
     );
   }
 }
