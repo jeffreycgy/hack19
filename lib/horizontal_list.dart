@@ -16,11 +16,7 @@ class _HorizontalList extends State<HorizontalTags> {
         margin: const EdgeInsets.fromLTRB(5, 0, 5, 0),
         decoration: new BoxDecoration(
             color: Color(0xFF42A5F5),
-            borderRadius: new BorderRadius.only(
-                topLeft: const Radius.circular(25),
-                topRight: const Radius.circular(25),
-                bottomLeft: const Radius.circular(25),
-                bottomRight: const Radius.circular(25))),
+            borderRadius: new BorderRadius.all(Radius.circular(25))),
         child: Padding(
             padding: EdgeInsets.fromLTRB(10, 4, 10, 0),
             child: Column(children: <Widget>[
