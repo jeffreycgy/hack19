@@ -1,27 +1,27 @@
 // To parse this JSON data, do
 //
-//     final titles = titlesFromJson(jsonString);
+//     final Feed = FeedFromJson(jsonString);
 
 import 'dart:convert';
 
-Titles titlesFromJson(String str) => Titles.fromJson(json.decode(str));
+Feed feedFromJson(String str) => Feed.fromJson(json.decode(str));
 
-String titlesToJson(Titles data) => json.encode(data.toJson());
+String feedToJson(Feed data) => json.encode(data.toJson());
 
-class Titles {
+class Feed {
   List<Item> items;
   bool hasMore;
   int quotaMax;
   int quotaRemaining;
 
-  Titles({
+  Feed({
     this.items,
     this.hasMore,
     this.quotaMax,
     this.quotaRemaining,
   });
 
-  factory Titles.fromJson(Map<String, dynamic> json) => new Titles(
+  factory Feed.fromJson(Map<String, dynamic> json) => new Feed(
         items: new List<Item>.from(json["items"].map((x) => Item.fromJson(x))),
         hasMore: json["has_more"],
         quotaMax: json["quota_max"],
