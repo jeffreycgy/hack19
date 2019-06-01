@@ -57,12 +57,51 @@ class _MyHomePageState extends State<MyHomePage> {
           padding: const EdgeInsets.all(0),
           children: <Widget>[
             DrawerHeader(
-              child: Text('Drawer Header'),
-              decoration: BoxDecoration(color: Colors.blue),
+              margin: EdgeInsets.all(0),
+              child: Padding(
+                  padding: const EdgeInsets.all(14),
+                  child: CircleAvatar(
+                      backgroundColor: Color(0xFFF5f5f5),
+                      child: Icon(
+                        IconData(59558, fontFamily: 'MaterialIcons'),
+                        size: 48,
+                      ))),
+              decoration: BoxDecoration(
+                color: Color(0xFF1976D2),
+              ),
             ),
-            ListTile(title: Text('Home')),
-            ListTile(title: Text('Profile')),
-            ListTile(title: Text('Bookmarks'))
+            Ink(
+                color: Color(0xFF1976D2),
+                child: ListTile(
+                    title: Padding(
+                        padding: EdgeInsets.fromLTRB(0, 0, 0, 20),
+                        child: Text(
+                          'Jeffrey Chai',
+                          textAlign: TextAlign.center,
+                          style:
+                              TextStyle(fontSize: 24, color: Color(0xFFFFFFFF)),
+                        )))),
+            ListTile(
+              title: Text(
+                'Home',
+                style: TextStyle(fontSize: 20),
+              ),
+            ),
+            ListTile(
+                title: Text(
+              'Bookmarks',
+              style: TextStyle(fontSize: 20),
+            )),
+            ListTile(
+                title: Text(
+              'Settings',
+              style: TextStyle(fontSize: 20),
+            )),
+            ListTile(
+                title: Text(
+              'Log out',
+              style: TextStyle(fontSize: 20),
+            ))
           ],
         ),
       ),
