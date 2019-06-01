@@ -30,56 +30,54 @@ class _LavaCardState extends State<LavaCard> {
                 // var title = feed.title;
                 // var description = feed.body;
                 // var username = feed.owner.displayName;
-                return new Container(
-                    child: ListView(children: <Widget>[
-                  Card(
-                      margin: EdgeInsets.fromLTRB(24, 24, 24, 0),
-                      child: InkWell(
-                          splashColor: Color(0xFFF5f5f5),
-                          onTap: () {
-                            print('Card tapped');
-                            navigateToSubPage(context);
-                          },
-                          child: Padding(
-                            padding: EdgeInsets.fromLTRB(16, 0, 16, 16),
-                            child: Column(
-                              mainAxisSize: MainAxisSize.min,
-                              children: <Widget>[
-                                Align(
-                                  child: ListTile(
-                                    leading: Icon(Icons.album, size: 40),
-                                    title: Text(feed.owner.displayName),
-                                  ),
+
+                return new Card(
+                    margin: EdgeInsets.fromLTRB(24, 24, 24, 0),
+                    child: InkWell(
+                        splashColor: Color(0xFFF5f5f5),
+                        onTap: () {
+                          print('Card tapped');
+                          navigateToSubPage(context);
+                        },
+                        child: Padding(
+                          padding: EdgeInsets.fromLTRB(16, 0, 16, 16),
+                          child: Column(
+                            mainAxisSize: MainAxisSize.min,
+                            children: <Widget>[
+                              Align(
+                                child: ListTile(
+                                  leading: Icon(Icons.album, size: 40),
+                                  title: Text(feed.owner.displayName),
                                 ),
-                                Align(
+                              ),
+                              Align(
+                                alignment: Alignment.centerLeft,
+                                child: Text(
+                                  feed.title,
+                                  style: TextStyle(
+                                      fontSize: 22,
+                                      color: Color(0xFF212121),
+                                      fontFamily: 'Proxima Nova'),
+                                ),
+                              ),
+                              Align(
                                   alignment: Alignment.centerLeft,
-                                  child: Text(
-                                    feed.title,
-                                    style: TextStyle(
-                                        fontSize: 22,
-                                        color: Color(0xFF212121),
-                                        fontFamily: 'Proxima Nova'),
-                                  ),
-                                ),
-                                Align(
-                                    alignment: Alignment.centerLeft,
-                                    child: Padding(
-                                        padding:
-                                            EdgeInsets.fromLTRB(0, 10, 0, 0),
-                                        child: Text(
-                                          feed.body,
-                                          style: TextStyle(
-                                              fontSize: 16,
-                                              color: Color(0xFF757575)),
-                                        )))
-                              ],
-                            ),
-                          )))
-                ]));
+                                  child: Padding(
+                                      padding: EdgeInsets.fromLTRB(0, 10, 0, 0),
+                                      child: Text(
+                                        feed.body,
+                                        style: TextStyle(
+                                            fontSize: 16,
+                                            color: Color(0xFF757575)),
+                                      )))
+                            ],
+                          ),
+                        )));
               }
             }
           } else {
-            return CircularProgressIndicator();
+            return Container();
+            // return CircularProgressIndicator();
           }
         });
   }

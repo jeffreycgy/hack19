@@ -74,7 +74,8 @@ class _HorizontalList extends State<HorizontalTags> {
               ),
             );
           } else {
-            return CircularProgressIndicator();
+            return Container();
+            // return CircularProgressIndicator();
           }
         });
   }
