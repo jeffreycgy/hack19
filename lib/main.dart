@@ -36,17 +36,38 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
+  TextEditingController editingController = TextEditingController();
 
-  void _incrementCounter() {
-    setState(() {
-      // This call to setState tells the Flutter framework that something has
-      // changed in this State, which causes it to rerun the build method below
-      // so that the display can reflect the updated values. If we changed
-      // _counter without calling setState(), then the build method would not be
-      // called again, and so nothing would appear to happen.
-      _counter++;
-    });
+  final duplicateItems = List<String>.generate(10000, (i) => "Item $i");
+  var items = List<String>();
+
+  @override
+  void initState() {
+    items.addAll(duplicateItems);
+    super.initState();
+  }
+
+  void filterSearchResults(String query) {
+    List<String> dummySearchList = List<String>();
+    dummySearchList.addAll(duplicateItems);
+    if (query.isNotEmpty) {
+      List<String> dummyListData = List<String>();
+      dummySearchList.forEach((item) {
+        if (item.contains(query)) {
+          dummyListData.add(item);
+        }
+      });
+      setState(() {
+        items.clear();
+        items.addAll(dummyListData);
+      });
+      return;
+    } else {
+      setState(() {
+        items.clear();
+        items.addAll(duplicateItems);
+      });
+    }
   }
 
   @override
@@ -87,6 +108,21 @@ class _MyHomePageState extends State<MyHomePage> {
           // horizontal).
           // mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Padding(
+              padding: const EdgeInsets.fromLTRB(20, 15, 20, 5),
+              child: TextField(
+                onChanged: (value) {
+                  filterSearchResults(value);
+                },
+                controller: editingController,
+                decoration: InputDecoration(
+                    contentPadding: const EdgeInsets.symmetric(vertical: 10.0),
+                    hintText: "Search",
+                    prefixIcon: Icon(Icons.search),
+                    border: OutlineInputBorder(
+                        borderRadius: BorderRadius.all(Radius.circular(35.0)))),
+              ),
+            ),
             // Text(
             //   'You have clicked the button this many times:',
             // ),
