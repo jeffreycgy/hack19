@@ -13,15 +13,22 @@ class HorizontalTags extends StatefulWidget {
 class _HorizontalList extends State<HorizontalTags> {
   Container getTagWidgets(String name) {
     return new Container(
-        height: 30.0,
-        width: 200,
-        margin: const EdgeInsets.only(left: 5.0, right: 5.0),
+        margin: const EdgeInsets.fromLTRB(5, 0, 5, 0),
         decoration: new BoxDecoration(
-            color: Colors.deepPurple[200],
+            color: Color(0xFF42A5F5),
             borderRadius: new BorderRadius.only(
-                topLeft: const Radius.circular(3.0),
-                topRight: const Radius.circular(3.0))),
-        child: Column(children: <Widget>[Text(name)]));
+                topLeft: const Radius.circular(25),
+                topRight: const Radius.circular(25),
+                bottomLeft: const Radius.circular(25),
+                bottomRight: const Radius.circular(25))),
+        child: Padding(
+            padding: EdgeInsets.fromLTRB(10, 4, 10, 0),
+            child: Column(children: <Widget>[
+              Text(
+                name,
+                style: TextStyle(color: Color(0xFFFFFFFF), fontSize: 16),
+              )
+            ])));
   }
 
   @override
@@ -47,7 +54,7 @@ class _HorizontalList extends State<HorizontalTags> {
                 'flutter-packages'
               ];
               return Container(
-                margin: EdgeInsets.symmetric(vertical: 20.0),
+                margin: EdgeInsets.fromLTRB(20, 5, 0, 5),
                 height: 30.0,
                 width: 250,
                 child: ListView(
